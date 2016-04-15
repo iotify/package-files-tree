@@ -13,7 +13,10 @@ module.exports = codebox.settings.schema("tree",
                 },
                 "default": [
                     {
-                        "command": "terminal.open"
+                        "command": "console.open"
+                    },
+                    {
+                        "command": "webview.open"
                     },
                     {
                         "command": "settings.open"
